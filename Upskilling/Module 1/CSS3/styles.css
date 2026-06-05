@@ -1,0 +1,455 @@
+/* =====================================================
+   COMMUNITY EVENT PORTAL
+   CSS3 EXERCISES INTEGRATED STYLESHEET
+===================================================== */
+
+/* =====================================================
+   UNIVERSAL SELECTOR
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =====================================================
+   BODY STYLING
+===================================================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f5f5f5;
+
+    background-image: url("../HTML5/event1.jpeg");
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    line-height: 1.6;
+
+    color: #333;
+}
+
+/* =====================================================
+   MAIN HEADER
+===================================================== */
+
+#mainHeader {
+
+    background: linear-gradient(
+        to right,
+        #0d6efd,
+        #0dcaf0
+    );
+
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+/* =====================================================
+   WELCOME BANNER
+===================================================== */
+
+#welcomeBanner {
+
+    background-color: rgba(
+        173,
+        216,
+        230,
+        0.9
+    );
+
+    padding: 25px;
+
+    margin-top: 20px;
+
+    border-radius: 12px;
+}
+
+/* =====================================================
+   CLASS SELECTOR
+===================================================== */
+
+.highlight {
+
+    background-color: yellow;
+
+    font-weight: bold;
+
+    padding: 5px;
+}
+
+/* =====================================================
+   ELEMENT SELECTOR
+===================================================== */
+
+h2 {
+
+    color: #0d6efd;
+
+    margin-top: 30px;
+
+    margin-bottom: 15px;
+}
+
+/* =====================================================
+   GROUPING SELECTOR
+===================================================== */
+
+h3,
+p {
+
+    margin-bottom: 10px;
+}
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+nav {
+
+    margin-bottom: 20px;
+}
+
+nav ul {
+
+    list-style: none;
+}
+
+nav li {
+
+    display: inline-block;
+
+    margin-right: 15px;
+}
+
+/* =====================================================
+   LINK STYLING
+===================================================== */
+
+a:link {
+
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: purple;
+}
+
+a:hover {
+
+    color: orange;
+
+    transition: 0.3s;
+}
+
+a:active {
+
+    color: red;
+}
+
+/* =====================================================
+   EVENT CARD
+===================================================== */
+
+.eventCard {
+
+    background-color: white;
+
+    border: 1px solid #ddd;
+
+    padding: 15px;
+
+    margin: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(
+        0,
+        0,
+        0,
+        0.1
+    );
+}
+
+/* =====================================================
+   IMAGE STYLING
+===================================================== */
+
+.galleryImage {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border: 3px solid black;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.galleryImage:hover {
+
+    transform: scale(1.05);
+}
+
+/* =====================================================
+   TABLE STYLING
+===================================================== */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+th,
+td {
+
+    border: 1px solid black;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+tr:nth-child(even) {
+
+    background-color: #eeeeee;
+}
+
+/* =====================================================
+   FORM STYLING
+===================================================== */
+
+form {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-top: 20px;
+
+    border: 2px solid #ccc;
+
+    border-radius: 10px;
+}
+
+label {
+
+    display: block;
+
+    margin-top: 10px;
+
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+/* =====================================================
+   FORM OUTLINE
+===================================================== */
+
+input:focus,
+textarea:focus,
+select:focus {
+
+    outline: 3px solid #0d6efd;
+}
+
+/* =====================================================
+   OUTPUT
+===================================================== */
+
+output {
+
+    display: block;
+
+    margin-top: 10px;
+
+    color: green;
+
+    font-weight: bold;
+}
+
+/* =====================================================
+   GEOLOCATION
+===================================================== */
+
+#geoResult {
+
+    margin-top: 15px;
+
+    color: blue;
+
+    font-weight: bold;
+}
+
+/* =====================================================
+   VIDEO
+===================================================== */
+
+video {
+
+    border: 3px solid #0d6efd;
+
+    border-radius: 10px;
+
+    margin-top: 15px;
+}
+
+/* =====================================================
+   MULTI COLUMN NEWS SECTION
+===================================================== */
+
+.newsSection {
+
+    column-count: 2;
+
+    column-gap: 30px;
+
+    column-rule: 1px solid gray;
+
+    margin-top: 20px;
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer {
+
+    margin-top: 40px;
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #212529;
+
+    color: white;
+}
+
+footer i {
+
+    font-size: 24px;
+
+    margin: 10px;
+
+    cursor: pointer;
+}
+
+/* =====================================================
+   BOOTSTRAP ICON HOVER
+===================================================== */
+
+footer i:hover {
+
+    color: #0dcaf0;
+}
+
+/* =====================================================
+   VISIBILITY DEMO
+===================================================== */
+
+.hiddenExample {
+
+    visibility: hidden;
+}
+
+.noneExample {
+
+    display: none;
+}
+
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+
+@media screen and (max-width: 768px) {
+
+    nav li {
+
+        display: block;
+
+        margin-bottom: 10px;
+    }
+
+    h1 {
+
+        font-size: 24px;
+    }
+
+    h2 {
+
+        font-size: 20px;
+    }
+
+    .galleryImage {
+
+        height: 180px;
+    }
+
+    video {
+
+        width: 100%;
+    }
+
+    footer {
+
+        font-size: 14px;
+    }
+}
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+
+        font-size: 20px;
+    }
+
+    .galleryImage {
+
+        height: 150px;
+    }
+
+    body {
+
+        padding: 10px;
+    }
+}
