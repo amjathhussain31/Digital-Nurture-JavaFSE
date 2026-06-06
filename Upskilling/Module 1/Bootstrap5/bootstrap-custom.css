@@ -1,0 +1,325 @@
+/* =====================================================
+   COMMUNITY EVENT PORTAL
+   BOOTSTRAP CUSTOMIZATION FILE
+===================================================== */
+
+
+/* =====================================================
+   NAVBAR CUSTOMIZATION
+===================================================== */
+
+.navbar {
+
+    box-shadow:
+        0 4px 10px
+        rgba(
+            0,
+            0,
+            0,
+            0.2
+        );
+}
+
+.navbar-brand {
+
+    font-weight: bold;
+
+    font-size: 1.4rem;
+}
+
+.nav-link {
+
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+
+    color: #ffc107 !important;
+
+    transform:
+        translateY(-2px);
+}
+
+
+/* =====================================================
+   BOOTSTRAP BUTTON CUSTOMIZATION
+===================================================== */
+
+.btn {
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 4px 12px
+        rgba(
+            0,
+            0,
+            0,
+            0.2
+        );
+}
+
+
+/* =====================================================
+   EVENT CARDS
+===================================================== */
+
+.card {
+
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 5px 15px
+        rgba(
+            0,
+            0,
+            0,
+            0.1
+        );
+}
+
+.card:hover {
+
+    transform:
+        translateY(-8px);
+
+    box-shadow:
+        0 10px 25px
+        rgba(
+            0,
+            0,
+            0,
+            0.2
+        );
+}
+
+.card-title {
+
+    color: #0d6efd;
+
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   CARD IMAGES
+===================================================== */
+
+.card-img-top {
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+
+/* =====================================================
+   FORM CONTROLS
+===================================================== */
+
+.form-control {
+
+    border-radius: 8px;
+}
+
+.form-control:focus {
+
+    border-color: #0d6efd;
+
+    box-shadow:
+        0 0 8px
+        rgba(
+            13,
+            110,
+            253,
+            0.4
+        );
+}
+
+
+/* =====================================================
+   MODAL CUSTOMIZATION
+===================================================== */
+
+.modal-content {
+
+    border-radius: 15px;
+
+    border: none;
+}
+
+.modal-header {
+
+    background-color: #0d6efd;
+
+    color: white;
+}
+
+.modal-footer {
+
+    background-color: #f8f9fa;
+}
+
+
+/* =====================================================
+   ACCORDION CUSTOMIZATION
+===================================================== */
+
+.accordion-button {
+
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+
+    background-color: #0d6efd;
+
+    color: white;
+}
+
+
+/* =====================================================
+   BOOTSTRAP ICONS
+===================================================== */
+
+.bi {
+
+    font-size: 28px;
+
+    margin: 8px;
+
+    transition: 0.3s;
+}
+
+.bi:hover {
+
+    color: #0dcaf0;
+
+    transform:
+        scale(1.2);
+}
+
+
+/* =====================================================
+   TABLE CUSTOMIZATION
+===================================================== */
+
+.table {
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.table thead {
+
+    background-color: #0d6efd;
+
+    color: white;
+}
+
+
+/* =====================================================
+   ALERT CUSTOMIZATION
+===================================================== */
+
+.alert {
+
+    border-radius: 10px;
+}
+
+
+/* =====================================================
+   BADGE CUSTOMIZATION
+===================================================== */
+
+.badge {
+
+    font-size: 0.9rem;
+
+    padding:
+        8px
+        12px;
+}
+
+
+/* =====================================================
+   SECTION TITLES
+===================================================== */
+
+.sectionTitle {
+
+    text-align: center;
+
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+
+    color: #0d6efd;
+
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .card-img-top {
+
+        height: 180px;
+    }
+
+    .navbar-brand {
+
+        font-size: 1.1rem;
+    }
+
+    .sectionTitle {
+
+        font-size: 1.5rem;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .card-img-top {
+
+        height: 150px;
+    }
+
+    .btn {
+
+        width: 100%;
+    }
+
+    .sectionTitle {
+
+        font-size: 1.2rem;
+    }
+}
